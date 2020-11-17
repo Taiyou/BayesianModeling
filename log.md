@@ -7,6 +7,6 @@
 
 参考文献:
 
-[基礎からのベイズ統計学: ハミルトニアンモンテカルロ法による実践的入門](https://amzn.to/36FnBOZ)
-[実践 ベイズモデリング -解析技法と認知モデル](https://amzn.to/36FnBOZ)
-[StanとRでベイズ統計モデリング](https://amzn.to/36HoB5d)
+- [基礎からのベイズ統計学: ハミルトニアンモンテカルロ法による実践的入門](https://amzn.to/36FnBOZ)
+- [実践 ベイズモデリング -解析技法と認知モデル](https://amzn.to/36FnBOZ)
+- [StanとRでベイズ統計モデリング](https://amzn.to/36HoB5d)
