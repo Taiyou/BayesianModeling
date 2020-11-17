@@ -3,6 +3,7 @@
 
 ## 1日目, 2020/11/17
 ベイズ統計学の一章, done
+- Principle of insufficient reason: 理由が不十分の場合等確率を当てはめる場合がある
 
 参考文献:
 
