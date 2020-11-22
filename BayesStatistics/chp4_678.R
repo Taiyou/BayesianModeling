@@ -95,7 +95,7 @@ print(mean(posterior[10000:100000]))
 
 
 # random_MH
-independent_MH <- function(data,scale_proposal=sqrt(0.5),theta_init=4,nrun=10) {
+random_MH <- function(data,scale_proposal=sqrt(0.5),theta_init=4,nrun=10) {
 
 	# initial values
 	theta_current = theta_init;
@@ -129,13 +129,13 @@ independent_MH <- function(data,scale_proposal=sqrt(0.5),theta_init=4,nrun=10) {
 # 8 波平釣果問題
 # var = 1.0, 受容率=29.55%, 0.8469911
 split.screen(c(2,1)); 
-posterior = independent_MH(data, scale_proposal=1,nrun=100000);
+posterior = random_MH(data, scale_proposal=1,nrun=100000);
 print(mean(posterior[10000:100000]));
 screen(1);
 plot(posterior[1:1000],main="var=1.0");
 
 # var = 0.001, 受容率=95.35%, 0.8375484
-posterior = independent_MH(data, scale_proposal=sqrt(0.001),nrun=100000);
+posterior = random_MH(data, scale_proposal=sqrt(0.001),nrun=100000);
 print(mean(posterior[10000:100000]));
 screen(2); 
 plot(posterior[1:1000],main="var=0.001");
